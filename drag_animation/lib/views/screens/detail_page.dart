@@ -53,7 +53,7 @@ class _DetailPageState extends State<DetailPage> {
               ),
             ),
             Text(
-              "YOUR SCORE : ${data.toUpperCase()}",
+              "CORRECT IT'S : ${data.toUpperCase()}",
               style: TextStyle(fontSize: 30),
             ),
             Hero(
