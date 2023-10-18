@@ -7,7 +7,7 @@ class JsonHelper {
   static final JsonHelper jsonHelper = JsonHelper._();
 
   Future<List> getPlanet() async {
-    String data = await rootBundle.loadString('assets/JSON/planetdata.json');
+    String data = await rootBundle.loadString('assets/json/planetdata.json');
 
     List allPlanets = jsonDecode(data);
 
